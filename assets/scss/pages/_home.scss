@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  nav {
+    h1 {
+      color: white;
+    }
+  }
+
+  .navbar {
+    display: flex;
+
+    .container {
+      .logo h1 {
+        font-size: 25px;
+      }
+    }
+
+    .nav-items {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+
+      ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+
+        a {
+          text-decoration: none;
+          color: white;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+#section-a {
+  width: 100%;
+  height: auto;
+
+  .card {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-body {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+
+    .card-title {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+
+    .card-text {
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+
+
+
+#section-b {
+  width: 100%;
+  height: auto;
+  background-image: url("/assets/image/sativa.png");
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+
+  .container {
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .secB-title {
+      h1 {
+        margin-bottom: 20px;
+        font-size: 35px;
+        color: $main-color;
+      }
+
+      h3 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+
+
+    .secB-middle {
+        width: 100%;
+    
+        .row {
+          display: flex;
+          justify-content: space-between;
+        }
+    
+        .card {
+          background-color: $main-color;
+          padding: 30px 10px;
+          margin: 20px 0px;
+    
+          i {
+            font-size: 80px;
+            color: white;
+          }
+    
+          .card-body {
+            color: white;
+          }
+        }
+
+        
+      }
+    }
+    
+
+
+
+  }
+
+
+
+#section-c {
+    width: 100%;
+    height: auto;
+    background-color: $main-color;
+
+    .container {
+        width: 80%;
+        color: white;
+        display: flex;
+
+        .text {
+            width: 75%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h1 {
+               font-size: 50px; 
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+
+        .num {
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h1 {
+                font-size: 50px; 
+             }
+             p{
+                 font-size: 20px;
+             }
+        }
+    }
+}
+
+
+#section-d {
+    width: 100%;
+    background-image: url("/assets/image/sativa.png");
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    
+    .container {
+        width: 80%;
+        height: auto;
+        margin-top: 30px;
+
+        .card {
+            margin-left: 20px;
+        }
+
+        .secD-foot {
+            .card-title {
+                margin-bottom: 30px;
+            }
+
+            .card-body{
+                background-color: #D8D8D8;
+                color: #858585;
+            }
+            
+            .sale {
+                
+
+                .card-h3 {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+#section-e {
+    width: 100%;
+    background-color: $main-color;
+    padding: 20px 0px;
+
+    .container {
+        width: 80%;
+        height: auto;
+        color: white;
+            
+        .col {
+            margin-bottom: 30px;
+        }
+        }
+}
+
+
+#section-f {
+    width: 100%;
+    background-image: url("/assets/image/sativa.png");
+    
+
+    .container {
+        width: 80%;
+        height: 90%;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0px;
+
+        .col {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+
+    .foot-text {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        color: white;
+        padding: 20px;
+    }
+}

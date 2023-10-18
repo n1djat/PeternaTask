@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header nav h1 {
+  color: white;
+}
+header .navbar {
+  display: flex;
+}
+header .navbar .container .logo h1 {
+  font-size: 25px;
+}
+header .navbar .nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+header .navbar .nav-items ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+header .navbar .nav-items ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+#section-a {
+  width: 100%;
+  height: auto;
+}
+#section-a .card {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#section-a .card-body {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+#section-a .card-body .card-title {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+#section-a .card-body .card-text {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+#section-b {
+  width: 100%;
+  height: auto;
+  background-image: url("/assets/image/sativa.png");
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+}
+#section-b .container {
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#section-b .container .secB-title h1 {
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: #02798A;
+}
+#section-b .container .secB-title h3 {
+  font-size: 20px;
+}
+#section-b .container .secB-title p {
+  font-size: 16px;
+}
+#section-b .container .secB-middle {
+  width: 100%;
+}
+#section-b .container .secB-middle .row {
+  display: flex;
+  justify-content: space-between;
+}
+#section-b .container .secB-middle .card {
+  background-color: #02798A;
+  padding: 30px 10px;
+  margin: 20px 0px;
+}
+#section-b .container .secB-middle .card i {
+  font-size: 80px;
+  color: white;
+}
+#section-b .container .secB-middle .card .card-body {
+  color: white;
+}
+
+#section-c {
+  width: 100%;
+  height: auto;
+  background-color: #02798A;
+}
+#section-c .container {
+  width: 80%;
+  color: white;
+  display: flex;
+}
+#section-c .container .text {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#section-c .container .text h1 {
+  font-size: 50px;
+}
+#section-c .container .text p {
+  font-size: 20px;
+}
+#section-c .container .num {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#section-c .container .num h1 {
+  font-size: 50px;
+}
+#section-c .container .num p {
+  font-size: 20px;
+}
+
+#section-d {
+  width: 100%;
+  background-image: url("/assets/image/sativa.png");
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+}
+#section-d .container {
+  width: 80%;
+  height: auto;
+  margin-top: 30px;
+}
+#section-d .container .card {
+  margin-left: 20px;
+}
+#section-d .container .secD-foot .card-title {
+  margin-bottom: 30px;
+}
+#section-d .container .secD-foot .card-body {
+  background-color: #D8D8D8;
+  color: #858585;
+}
+#section-d .container .secD-foot .sale .card-h3 {
+  margin-top: 20px;
+}
+
+#section-e {
+  width: 100%;
+  background-color: #02798A;
+  padding: 20px 0px;
+}
+#section-e .container {
+  width: 80%;
+  height: auto;
+  color: white;
+}
+#section-e .container .col {
+  margin-bottom: 30px;
+}
+
+#section-f {
+  width: 100%;
+  background-image: url("/assets/image/sativa.png");
+}
+#section-f .container {
+  width: 80%;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0px;
+}
+#section-f .container .col {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+}
+footer .foot-text {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: white;
+  padding: 20px;
+}
